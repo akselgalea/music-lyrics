@@ -1,0 +1,6 @@
+### Buscar un artista - GENIUS
+https://api.genius.com/search?q=Kendrick%20Lamar%20Element
+Authorization: Bearer Ie8kJIfoDVUHasEmrT-46HFng7JRhEwTt6FM_H_iTpWxht_XKyo6J-0_ZNzLrAbn
+
+### GET Lyrics Index
+http://localhost:1234/lyrics/
