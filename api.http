@@ -1,6 +1,15 @@
 ### Buscar un artista - GENIUS
-https://api.genius.com/search?q=Kendrick%20Lamar%20Element
+GET https://api.genius.com/search?q=Kendrick%20Lamar%20Element
 Authorization: Bearer Ie8kJIfoDVUHasEmrT-46HFng7JRhEwTt6FM_H_iTpWxht_XKyo6J-0_ZNzLrAbn
+
+### Buscar track c/ error - Deezer
+GET https://api.deezer.com/track/1
+
+### Buscar track
+GET https://api.deezer.com/track/3135556
+
+### Buscar charts
+GET https://api.deezer.com/chart/0
 
 ### GET Lyrics Index
 http://localhost:1234/lyrics/
