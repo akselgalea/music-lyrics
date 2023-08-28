@@ -5,9 +5,9 @@ import { lyricsRouter } from './routes/genius.js'
 
 const app = express()
 
+app.disable('x-powered-by')
 app.use(json())
 app.use(corsMiddleware())
-app.disable('x-powered-by')
 
 app.use('/music', musicRouter)
 app.use('/lyrics', lyricsRouter)

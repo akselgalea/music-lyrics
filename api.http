@@ -13,3 +13,6 @@ GET https://api.deezer.com/chart/0
 
 ### GET Lyrics Index
 http://localhost:1234/lyrics/
+
+### GET Music Index
+http://localhost:1234/music/
